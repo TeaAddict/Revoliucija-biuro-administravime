@@ -1,6 +1,7 @@
 const HeroSection = () => {
   return (
-    <div className="h-[50vh] relative font-first">
+    // <div className="h-[50vh] relative font-first">
+    <div className="h-screen relative font-first">
       <div className="bg-linear-to-t from-orange-950/90 h-full w-full absolute"></div>
       <div className="bg-linear-to-t from-orange-950/90 h-full w-full absolute"></div>
       <img
