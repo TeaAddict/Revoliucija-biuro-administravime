@@ -1,7 +1,9 @@
 
 const ProgramSection = () => {
   return (
-    <div>ProgramSection</div>
+    <div>
+      <h2>Program Schedule</h2>
+    </div>
   )
 }
 

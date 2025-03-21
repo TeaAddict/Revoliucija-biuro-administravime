@@ -6,7 +6,7 @@ import ProgramSection from "./components/ProgramSection";
 
 function App() {
   return (
-    <div className="bg-first min-h-screen font-first">
+    <div className="bg-first min-h-screen font-second">
       <HeroSection />
       <EvolutionSection />
       <ProgramSection />

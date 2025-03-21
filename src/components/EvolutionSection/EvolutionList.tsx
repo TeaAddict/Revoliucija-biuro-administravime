@@ -6,7 +6,7 @@ import Robot from "../../assets/robot.svg?react";
 
 const EvolutionList = () => {
   return (
-    <div className="flex gap-4">
+    <div className="grid grid-cols-4 w-full gap-5 py-5 px-5">
       <EvolutionCard img={Typewriter} year={1910} name={"Manual Typewriters"} />
       <EvolutionCard img={Telephone} year={1950} name={"Telephone Systems"} />
       <EvolutionCard img={Computer} year={1990} name={"Computer Era"} />
