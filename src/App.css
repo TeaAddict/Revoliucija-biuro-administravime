@@ -1,16 +1,22 @@
 @import "tailwindcss";
 
-@import url("https://fonts.googleapis.com/css2?family=Abril+Fatface&family=Caveat:wght@400..700&family=Inconsolata:wght@200..900&display=swap");
-
+@import url('https://fonts.googleapis.com/css2?family=Abril+Fatface&family=Albert+Sans:ital,wght@0,100..900;1,100..900&family=Alegreya:ital,wght@0,400..900;1,400..900&family=Karla:ital,wght@0,200..800;1,200..800&display=swap');
 @theme {
-  --color-first: #f7d43f;
+  --color-first: #b45309;
+  --color-second:#431407 ;
+  --color-third:#E8D6CB ;
+  --color-fourth: #D0ADA7;
+  --color-fifth: #B58DB6;
+  /* --color-first: #f7d43f;
   --color-second: #7d6b23;
   --color-third: #5f4b19;
   --color-fourth: #7c5e2f;
-  --color-fifth: #1a1818;
+  --color-fifth: #1a1818; */
 
   --font-first: "Abril Fatface", serif;
-  --font-second: "Abril Fatface", serif;
+  /* --font-second: "Albert Sans", sans-serif; */
+  --font-second: "Karla", sans-serif;
+  /* --font-second: "Albert Sans", sans-serif; */
 
   --text-head: 1.5rem;
 }
