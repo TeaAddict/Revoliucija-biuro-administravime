@@ -12,10 +12,19 @@ const HeroSection = () => {
         <h2 className="text-5xl text-white font-first tracking-wider">
           Forumas
         </h2>
+        <hr className="w-40 border-t-2 border-amber-700 mx-auto " />
         <p className="text-2xl text-white font-first tracking-wider">
           "(r)Evoliucija biuro administravime: patirtys, nauji įgūdžiai ir
           iššūkiai"
         </p>
+        <div className="flex gap-4 justify-center mt-4">
+          <div className="border-2 border-amber-700 text-amber-700 px-6 py-2 rounded-md">
+            2025 m. balandžio 16 d.
+          </div>
+          <div className="border-2 border-amber-700 text-amber-700 px-6 py-2 rounded-md ">
+            Vilnius
+          </div>
+        </div>
       </div>
     </div>
   );
