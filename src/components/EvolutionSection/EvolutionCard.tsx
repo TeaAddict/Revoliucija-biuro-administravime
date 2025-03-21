@@ -6,8 +6,8 @@ interface CardProps {
 
 const EvolutionCard: React.FC<CardProps> = ({ img: Img, year, name }) => {
   return (
-    <div className="flex flex-col text-center bg-third max-h-20 p-5 rounded-xl">
-      <Img className={"w-full h-16"} />
+    <div className="flex flex-col text-center bg-third p-5 rounded-xl">
+      <Img className={"w-full h-16 fill-current text-black"} />
       <p>{year}</p>
       <p>{name}</p>
     </div>
