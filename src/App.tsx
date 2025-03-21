@@ -1,12 +1,17 @@
 import './App.css'
-import Computer from "./assets/computer.svg?react";
+import EvolutionSection from './components/EvolutionSection';
+import Footer from './components/Footer';
+import HeroSection from './components/HeroSection';
+import ProgramSection from './components/ProgramSection';
 
 function App() {
 
   return (
-    <div className='bg-orange-500'>
-      <h1>Revoliucija!</h1>
-      <Computer className={""}/>
+    <div className='bg-first min-h-screen'>
+      <HeroSection/>
+      <EvolutionSection/>
+      <ProgramSection/>
+      <Footer/>
     </div>
   )
 }
