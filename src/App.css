@@ -2,10 +2,10 @@
 
 @import url('https://fonts.googleapis.com/css2?family=Abril+Fatface&family=Albert+Sans:ital,wght@0,100..900;1,100..900&family=Alegreya:ital,wght@0,400..900;1,400..900&family=Karla:ital,wght@0,200..800;1,200..800&display=swap');
 @theme {
-  --color-first: #b45309;
-  --color-second:#431407 ;
-  --color-third:#E8D6CB ;
-  --color-fourth: #D0ADA7;
+  --color-first:  #114954;
+  --color-second:#E9F4E9;
+  --color-third:#E9F4E9;
+  --color-fourth:  #114954;
   --color-fifth: #B58DB6;
   /* --color-first: #f7d43f;
   --color-second: #7d6b23;
