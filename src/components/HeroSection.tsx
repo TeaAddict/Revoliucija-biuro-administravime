@@ -1,6 +1,12 @@
+// import TechinBrand1 from "../assets/TechinBrand.svg?react";
+// import TechinBrand2 from "../assets/Techin-brand-H.PNG";
+// import TechinBrand3 from "../assets/Techin-brand-V.PNG";
+// import TechinBrand4 from "../assets/Techin-brandmark.PNG";
+import TechinBrand5 from "../assets/Techin-brand-X.png";
+
 const HeroSection = () => {
   return (
-    <div className="h-screen relative font-first overflow-hidden">
+    <div className="h-[100vh] sm:h-[80vh] relative font-first overflow-hidden">
       <div className="bg-linear-to-t from-second/90 to-sixth/40 h-full w-full absolute"></div>
       <div className="bg-linear-to-t from-second/90 to-sixth/40 h-full w-full absolute"></div>
       <img
@@ -8,7 +14,15 @@ const HeroSection = () => {
         className="w-full h-full object-cover "
       />
 
-      <div className="flex flex-col gap-10 absolute top-1/2 left-1/2 transform -translate-x-1/2 -translate-y-1/2 text-center">
+      <div className="flex flex-col gap-10 absolute top-1/2 left-1/2 transform -translate-x-1/2 -translate-y-[60%] text-center">
+        {/* <TechinBrand1 className=" h-[8rem] fill-[#2BD47A]" /> */}
+        {/* <img src={TechinBrand2} /> */}
+        {/* <img src={TechinBrand3} /> */}
+        {/* <img src={TechinBrand4} /> */}
+        <div className="w-full flex justify-center">
+          <img src={TechinBrand5} className="h-auto max-w-20" />
+        </div>
+
         <h2 className="text-5xl text-first font-first tracking-wider">
           Forumas
         </h2>

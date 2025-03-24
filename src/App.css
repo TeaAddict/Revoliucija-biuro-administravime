@@ -1,13 +1,14 @@
 @import "tailwindcss";
+@plugin "daisyui";
 
 @import url("https://fonts.googleapis.com/css2?family=Abril+Fatface&family=Albert+Sans:ital,wght@0,100..900;1,100..900&family=Alegreya:ital,wght@0,400..900;1,400..900&family=Karla:ital,wght@0,200..800;1,200..800&display=swap");
 @theme {
-  --color-first:  #114954;
-  --color-second:#E9F4E9;
-  --color-third:#E9F4E9;
-  --color-fourth:  #114954;
-  --color-fifth: #E9F4E9;
-  --color-sixth:#2BD47A;
+  --color-first: #114954;
+  --color-second: #e9f4e9;
+  --color-third: #e9f4e9;
+  --color-fourth: #114954;
+  --color-fifth: #e8f3e9;
+  --color-sixth: #2bd47a;
   /* --color-first: #b45309;
   --color-second: #431407;
   --color-third: #e8d6cb;
