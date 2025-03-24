@@ -10,7 +10,7 @@ function App() {
       <HeroSection />
       <EvolutionSection />
       <ProgramSection />
-      <Footer />
+      {/* <Footer /> */}
     </div>
   );
 }
