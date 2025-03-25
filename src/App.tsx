@@ -13,7 +13,7 @@ function App() {
       <InfoButtonSection />
       <KvietimoSection />
       <ProgramSection />
-      <EvolutionSection />
+      {/* <EvolutionSection /> */}
       <Footer />
     </div>
   );

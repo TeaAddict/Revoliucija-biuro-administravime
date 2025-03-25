@@ -1,5 +1,11 @@
+import ProgramSection from "../ProgramSection/ProgramSection";
+
 const ForumoPrograma = () => {
-  return <div>ForumoPrograma</div>;
+  return (
+    <div>
+      <ProgramSection />
+    </div>
+  );
 };
 
 export default ForumoPrograma;
