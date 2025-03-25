@@ -9,6 +9,7 @@ import svgr from "vite-plugin-svgr";
 export default defineConfig({
   plugins: [react(),
     tailwindcss(),
-    svgr()
+    svgr(),
   ],
+  base: '/Revoliucija-biuro-administravime/'
 })

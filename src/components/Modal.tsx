@@ -7,7 +7,7 @@ type ModalProps = {
 
 const Modal = ({ children, modalName }: ModalProps) => {
   return (
-    <div>
+    <div className="bg-red-500">
       <dialog id={modalName} className="modal">
         <div className="modal-box">
           <form method="dialog">
@@ -15,7 +15,7 @@ const Modal = ({ children, modalName }: ModalProps) => {
               ✕
             </button>
           </form>
-          <div>{children}</div>
+          <div className="bg-red-500">{children}</div>
         </div>
         <form method="dialog" className="modal-backdrop">
           <button>close</button>

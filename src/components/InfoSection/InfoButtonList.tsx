@@ -26,7 +26,7 @@ const InfoButtonList = () => {
       <Modal modalName="modal4">
         <ForumoMedziaga />
       </Modal>
-      <div className="grid grid-cols-4 w-full gap-5 py-5 px-5">
+      <div className="grid lg:grid-cols-4 w-full gap-5 py-5 px-5">
         <button
           className="cursor-pointer"
           onClick={() =>

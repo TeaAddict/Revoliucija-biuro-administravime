@@ -3,16 +3,14 @@
 // import TechinBrand3 from "../assets/Techin-brand-V.PNG";
 // import TechinBrand4 from "../assets/Techin-brandmark.PNG";
 import TechinBrand5 from "../assets/Techin-brand-X.png";
+import HeroImg from "../assets/sculpture1.webp";
 
 const HeroSection = () => {
   return (
     <div className="h-[100vh] sm:h-[80vh] relative font-first overflow-hidden">
       <div className="bg-linear-to-t from-second/90 to-sixth/40 h-full w-full absolute"></div>
       <div className="bg-linear-to-t from-second/90 to-sixth/40 h-full w-full absolute"></div>
-      <img
-        src="src/assets/sculpture1.webp"
-        className="w-full h-full object-cover "
-      />
+      <img src={HeroImg} className="w-full h-full object-cover " />
 
       <div className="flex flex-col gap-10 absolute top-1/2 left-1/2 transform -translate-x-1/2 -translate-y-[60%] text-center">
         {/* <TechinBrand1 className=" h-[8rem] fill-[#2BD47A]" /> */}
