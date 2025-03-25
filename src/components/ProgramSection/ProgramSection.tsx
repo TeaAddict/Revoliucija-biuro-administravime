@@ -30,7 +30,7 @@ const cardRows2 = [
 
 const ProgramSection = () => {
   return (
-    <div className="flex flex-col justify-center w-full lg:p-12 bg-second text-sixth">
+    <div className="flex flex-col justify-center w-full bg-second text-sixth py-10 lg:py-0">
       <div className="flex flex-col items-center gap-5">
         <h2 className="text-head font-bold">Program Schedule</h2>
         <ProgramCard head={"Morning Session"} cardRows={cardRows} />

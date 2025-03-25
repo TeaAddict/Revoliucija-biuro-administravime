@@ -1,7 +1,7 @@
 const KvietimoSection = () => {
   return (
     <div className="flex justify-center py-20 text-white relative">
-      <div className="flex flex-col bg-first p-10 rounded-md">
+      <div className="flex flex-col bg-first p-10 lg:rounded-md">
         
         <div className="flex flex-col gap-5 text-center">
           <h1 className="text-2xl text-sixth">FORUMAS</h1>

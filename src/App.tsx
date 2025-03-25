@@ -1,10 +1,8 @@
 import "./App.css";
-import EvolutionSection from "./components/EvolutionSection/EvolutionSection";
 import Footer from "./components/Footer";
 import HeroSection from "./components/HeroSection";
 import InfoButtonSection from "./components/InfoSection/InfoButtonSection";
 import KvietimoSection from "./components/KvietimoSection";
-import ProgramSection from "./components/ProgramSection/ProgramSection";
 
 function App() {
   return (
@@ -12,7 +10,7 @@ function App() {
       <HeroSection />
       <InfoButtonSection />
       <KvietimoSection />
-      <ProgramSection />
+      {/* <ProgramSection /> */}
       {/* <EvolutionSection /> */}
       <Footer />
     </div>
