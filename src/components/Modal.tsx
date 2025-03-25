@@ -3,19 +3,20 @@ import { ReactNode } from "react";
 type ModalProps = {
   children: ReactNode;
   modalName: string;
+  style?: string;
 };
 
-const Modal = ({ children, modalName }: ModalProps) => {
+const Modal = ({ children, modalName, style }: ModalProps) => {
   return (
-    <div className="bg-red-500">
+    <div>
       <dialog id={modalName} className="modal">
-        <div className="modal-box">
+        <div className={`modal-box w-auto max-w-full ${style}`}>
           <form method="dialog">
             <button className="btn btn-sm btn-circle btn-ghost absolute right-2 top-2">
               ✕
             </button>
           </form>
-          <div className="bg-red-500">{children}</div>
+          <div>{children}</div>
         </div>
         <form method="dialog" className="modal-backdrop">
           <button>close</button>
