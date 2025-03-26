@@ -6,7 +6,8 @@ import KvietimoSection from "./components/KvietimoSection";
 
 function App() {
   return (
-    <div className="min-h-screen w-full font-second bg-second text-black">
+    // <div className="min-h-screen w-full font-second bg-second text-black">
+    <div className="min-h-screen w-full font-third bg-second text-black">
       <HeroSection />
       <InfoButtonSection />
       <KvietimoSection />

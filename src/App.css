@@ -2,6 +2,18 @@
 @plugin "daisyui";
 
 @import url("https://fonts.googleapis.com/css2?family=Abril+Fatface&family=Albert+Sans:ital,wght@0,100..900;1,100..900&family=Alegreya:ital,wght@0,400..900;1,400..900&family=Karla:ital,wght@0,200..800;1,200..800&display=swap");
+
+@font-face {
+  font-family: "Eina"; /* Name you’ll use to reference the font */
+  src: url("./fonts/eina01/Eina01-Regular.ttf") format("truetype"); /* Path to your font file */
+  font-weight: normal; /* Adjust as needed (e.g., bold, 400, 700) */
+  font-style: normal; /* Adjust as needed (e.g., italic) */
+}
+
+body {
+  font-family: "Eina", sans-serif;
+}
+
 @theme {
   --color-first: #114954;
   --color-second: #e9f4e9;
@@ -26,6 +38,7 @@
   /* --font-second: "Albert Sans", sans-serif; */
   --font-second: "Karla", sans-serif;
   /* --font-second: "Albert Sans", sans-serif; */
+  --font-third: "Eina", "Arial";
 
   --text-head: 1.5rem;
 }

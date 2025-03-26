@@ -7,7 +7,7 @@ import HeroImg from "../assets/sculpture1.webp";
 
 const HeroSection = () => {
   return (
-    <div className="h-[100vh] sm:h-[80vh] relative font-first overflow-hidden">
+    <div className="h-[100vh] sm:h-[80vh] relative overflow-hidden">
       <div className="bg-linear-to-t from-second/90 to-sixth/40 h-full w-full absolute"></div>
       <div className="bg-linear-to-t from-second/90 to-sixth/40 h-full w-full absolute"></div>
       <img src={HeroImg} className="w-full h-full object-cover " />
@@ -21,11 +21,11 @@ const HeroSection = () => {
           <img src={TechinBrand5} className="h-auto max-w-20" />
         </div>
 
-        <h2 className="text-5xl text-first font-first tracking-wider">
+        <h2 className="text-5xl font-bold text-first tracking-wider">
           Forumas
         </h2>
         <hr className="w-40 border-first mx-auto border-1" />
-        <p className="text-2xl text-first font-first tracking-wider">
+        <p className="text-2xl font-[600] text-first tracking-wider">
           "(r)Evoliucija biuro administravime: patirtys, nauji įgūdžiai ir
           iššūkiai"
         </p>
