@@ -1,40 +1,110 @@
 import ProgramCard from "./ProgramCard";
+import TechinBrand from "../../assets/TechinBrand.svg?react";
 
-const cardRows = [
-  { val: "10:30-11:30", color: "text-second font-bold" },
-  { val: "Registration", color: "text-second" },
-  { val: "10:30-11:30", color: "text-second font-bold" },
-  { val: "Opening Ceremony", color: "text-second" },
-  { val: "10:30-11:30", color: "text-second font-bold" },
+// const cardRows1 = [
+//   { val: "9.30-10.00", color: "text-second font-bold" },
+//   { val: "Registracija", color: "text-second" },
+//   { val: "10.00-10.30", color: "text-second font-bold" },
+//   { val: "Forumo atidarymas/sveikinimas/ susipažinimas", color: "text-second" },
+//   { val: "10:30-10.45", color: "text-second font-bold" },
+//   {
+//     val: "Intro „Evoliucija biuro administravime“",
+//     color: "text-second",
+//   },
+// ];
+
+const data1 = [
   {
-    val: "Introduction to Office Administration Evolution",
-    color: "text-second",
+    time: "9.30-10.00",
+    description: "Registracija",
   },
-  { val: "10:30-11:30", color: "text-second font-bold" },
-  { val: "Description long and interesting", color: "text-second" },
+  {
+    time: "10.00-10.30",
+    description: "Forumo atidarymas/sveikinimas/ susipažinimas",
+  },
+  {
+    time: "10.30-10.45",
+    description: "Intro „Evoliucija biuro administravime“",
+  },
 ];
 
-const cardRows2 = [
-  { val: "10:30-11:30", color: "text-second font-bold" },
-  { val: "Registration", color: "text-second" },
-  { val: "10:30-11:30", color: "text-second font-bold" },
-  { val: "Opening Ceremony", color: "text-second" },
-  { val: "10:30-11:30", color: "text-second font-bold" },
+const data2 = [
   {
-    val: "Introduction to Office Administration Evolution",
-    color: "text-second",
+    time: "10.45-11.05",
+    description:
+      "„Darbas su klientais. Tinklaveika - abipusis santykių kūrimas“ UAB „Litcargus“. Personalo direktorė A. Jurėnaitė",
   },
-  { val: "10:30-11:30", color: "text-second font-bold" },
-  { val: "Description long and interesting", color: "text-second" },
+  {
+    time: "11.05-11.25",
+    description:
+      "„Dokumentų valdymas: iššūkiai ir ateities perspektyvos“ Lietuvos valstybės naujasis archyvas. Direktorė D. Kontrimavičienė",
+  },
+  {
+    time: "11.25-11.45",
+    description:
+      "„Kibernetinio saugumo sąmoningumo ugdymas ir socialinės inžinerijos testavimai“ UAB „Vilniaus vandenys“. Kibernetinio saugumo vadovas J. Lisauskas",
+  },
+  {
+    time: "11.45-11.55",
+    description: "Pertrauka",
+  },
+  {
+    time: "11.55-12.15",
+    description:
+      "„Asmens duomenų apsauga įstaigoje“ Žemės ūkio duomenų centras. Asmens duomenų apsaugos pareigūnė I. Mitkevičienė",
+  },
+  {
+    time: "12.15-12.35",
+    description:
+      "„Dirbtinis intelektas biure: partneris ar konkurentas“ Mokymo(-si) patirčių konsultantas, lektorius Ą. Balčius",
+  },
+  {
+    time: "12.35-12.55",
+    description:
+      "„Darbo rinkos tendencijos“ Darbo rinkos ekspertė R. Karavaitienė",
+  },
+  {
+    time: "12.55-14.00",
+    description: "Pietų pertrauka",
+  },
+];
+
+const data3 = [
+  {
+    time: "14.00-15.30",
+    description: "Darbas sekcijose. Mokytojų diskusijos/ Mokinių diskusijos",
+  },
+  {
+    time: "15.30-15.50",
+    description: "Diskusijų apibendrinimas",
+  },
+  {
+    time: "15.50-16.00",
+    description: "Forumo pabaiga",
+  },
 ];
 
 const ProgramSection = () => {
   return (
     <div className="flex flex-col justify-center w-full bg-second text-sixth py-10 lg:py-0">
       <div className="flex flex-col items-center gap-5">
-        <h2 className="text-head font-bold">Program Schedule</h2>
-        <ProgramCard head={"Morning Session"} cardRows={cardRows} />
-        <ProgramCard head={"Afternoon Session"} cardRows={cardRows2} />
+        <TechinBrand />
+        <h4 className="text-head font-bold">
+          Vilniaus technologijų ir inžinerijos mokymo centras (TECHIN)
+        </h4>
+        <h3 className="text-head font-bold">FORUMAS</h3>
+        <h2 className="text-head font-bold">
+          „(r)Evoliucija biuro administravime: patirtys, nauji įgūdžiai ir
+          iššūkiai“
+        </h2>
+        <h2 className="text-head font-bold">PROGRAMA</h2>
+        <p>
+          Balandžio 16 d., Aviacijos ir verslo administravimo mokymo skyrius,
+          Lakūnų g. 3, Vilnius
+        </p>
+        <ProgramCard cardRows={data1} />
+        <ProgramCard head={"I DALIS"} cardRows={data2} />
+        <ProgramCard head={"II DALIS"} cardRows={data3} />
       </div>
     </div>
   );
