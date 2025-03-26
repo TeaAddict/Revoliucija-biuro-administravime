@@ -22,25 +22,26 @@ const KvietimoSection = () => {
               Vilnius).
             </p>
           </div>
-          <p className="flex justify-end">
+          <p className="flex justify-end pb-4 sm:pb-0">
               2025 m. balandžio 16 diena, 10:00
             </p>
         </div>
         
-        <div className="flex items-end">
-          {/* <div className="w-60 h-60 bg-chevron"></div> */}
+        <div className="flex items-end w-full">
+  
+  <div className="flex" style={{ width: '40%' }}>
+    <div className="h-20 md:h-32 bg-chevron-reverse w-1/2"></div>
+    <div className="h-20 md:h-32 bg-chevron w-1/2"></div>
+  </div>
 
-          <div className="flex ">
-            <div className="w-32 h-44 bg-chevron-reverse"></div>
-            <div className="w-32 h-44 bg-chevron"></div>
-          </div>
-          <div className="flex items-end">
-            <div className="w-32 h-24 bg-chevron-reverse"></div>
-            <div className="w-60 h-24 bg-chevron"></div>
-            <div className="w-60 h-16 bg-chevron-reverse"></div>
-            
-          </div>
-        </div>
+  
+  <div className="flex items-end" style={{ width: '60%' }}>
+    <div className="h-12 md:h-20 bg-chevron-reverse w-1/5"></div>
+    <div className="h-12 md:h-20 bg-chevron w-2/5"></div>
+    <div className="h-8 md:h-14 bg-chevron-reverse w-2/5"></div>
+  </div>
+</div>
+
 
       </div>
     </div>
