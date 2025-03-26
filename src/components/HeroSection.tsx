@@ -7,12 +7,12 @@ import HeroImg from "../assets/sculpture1.webp";
 
 const HeroSection = () => {
   return (
-    <div className="h-[100vh] sm:h-[80vh] relative overflow-hidden">
+    <div className="h-[100vh] lg:h-[80vh] relative overflow-hidden">
       <div className="bg-linear-to-t from-second/90 to-sixth/40 h-full w-full absolute"></div>
       <div className="bg-linear-to-t from-second/90 to-sixth/40 h-full w-full absolute"></div>
       <img src={HeroImg} className="w-full h-full object-cover " />
 
-      <div className="flex flex-col gap-10 absolute top-1/2 left-1/2 transform -translate-x-1/2 -translate-y-[60%] text-center">
+      <div className="flex flex-col gap-10 absolute top-[60%] lg:top-1/2 left-1/2 transform -translate-x-1/2 -translate-y-[60%] text-center">
         {/* <TechinBrand1 className=" h-[8rem] fill-[#2BD47A]" /> */}
         {/* <img src={TechinBrand2} /> */}
         {/* <img src={TechinBrand3} /> */}

@@ -1,5 +1,5 @@
 import ProgramCard from "./ProgramCard";
-import TechinBrand from "../../assets/TechinBrand.svg?react";
+import TechinBrand5 from "../../assets/Techin-brand-X.png";
 
 // const cardRows1 = [
 //   { val: "9.30-10.00", color: "text-second font-bold" },
@@ -20,7 +20,7 @@ const data1 = [
   },
   {
     time: "10.00-10.30",
-    description: "Forumo atidarymas/sveikinimas/ susipažinimas",
+    description: "Forumo atidarymas /sveikinimas / susipažinimas",
   },
   {
     time: "10.30-10.45",
@@ -72,7 +72,7 @@ const data2 = [
 const data3 = [
   {
     time: "14.00-15.30",
-    description: "Darbas sekcijose. Mokytojų diskusijos/ Mokinių diskusijos",
+    description: "Darbas sekcijose. Mokytojų diskusijos / Mokinių diskusijos",
   },
   {
     time: "15.30-15.50",
@@ -86,18 +86,18 @@ const data3 = [
 
 const ProgramSection = () => {
   return (
-    <div className="flex flex-col justify-center w-full bg-second text-sixth py-10 lg:py-0">
+    <div className="flex flex-col justify-center w-full bg-second text-first py-10 lg:py-0">
       <div className="flex flex-col items-center gap-5">
-        <TechinBrand className="text-sixth stroke-sixth" />
-        <h4 className="text-head font-bold">
+        <img src={TechinBrand5} className="h-auto max-w-20" />
+        <h4 className="text-lg font-bold text-center">
           Vilniaus technologijų ir inžinerijos mokymo centras (TECHIN)
         </h4>
-        <h3 className="text-head font-bold">FORUMAS</h3>
-        <h2 className="text-head font-bold">
+        <h3 className="text-xl font-bold">FORUMAS</h3>
+        <h2 className="text-head font-bold text-center">
           „(r)Evoliucija biuro administravime: patirtys, nauji įgūdžiai ir
           iššūkiai“
         </h2>
-        <h2 className="text-head font-bold">PROGRAMA</h2>
+        <h2 className="text-xl font-bold">PROGRAMA</h2>
         <p>
           Balandžio 16 d., Aviacijos ir verslo administravimo mokymo skyrius,
           Lakūnų g. 3, Vilnius

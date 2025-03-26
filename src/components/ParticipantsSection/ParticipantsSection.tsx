@@ -2,14 +2,32 @@ import TechinBrand5 from "../../assets/Techin-brand-X.png";
 
 const participants = [
   { name: "Alytaus profesinio rengimo centras", url: "https://www.aprc.lt/" },
-  { name: "Karaliaus Mindaugo profesinio mokymo centras", url: "https://www.kaupa.lt/" },
-  { name: "Kauno maisto pramonės ir prekybos mokymo centras", url: "https://mpcentras.lt/" },
-  { name: "Marijampolės profesinio rengimo centras", url: "https://www.mprc.lt/" },
+  {
+    name: "Karaliaus Mindaugo profesinio mokymo centras",
+    url: "https://www.kaupa.lt/",
+  },
+  {
+    name: "Kauno maisto pramonės ir prekybos mokymo centras",
+    url: "https://mpcentras.lt/",
+  },
+  {
+    name: "Marijampolės profesinio rengimo centras",
+    url: "https://www.mprc.lt/",
+  },
   { name: "Panevėžio mokymo centras", url: "https://www.paneveziomc.lt/" },
-  { name: "Smalininkų technologijų ir verslo mokykla", url: "https://www.stvm.lt/" },
+  {
+    name: "Smalininkų technologijų ir verslo mokykla",
+    url: "https://www.stvm.lt/",
+  },
   { name: "Šiaulių technologijų mokymo centras", url: "https://www.stmc.lt/" },
-  { name: "Tauragės profesinio rengimo centro", url: "https://www.tauragesprc.lt/" },
-  { name: "Vilniaus technologijų ir inžinerijos mokymo centras (TECHIN)", url: "https://techin.lt/" },
+  {
+    name: "Tauragės profesinio rengimo centro",
+    url: "https://www.tauragesprc.lt/",
+  },
+  {
+    name: "Vilniaus technologijų ir inžinerijos mokymo centras (TECHIN)",
+    url: "https://techin.lt/",
+  },
 ];
 
 const ParticipantsSection = () => {
@@ -28,8 +46,8 @@ const ParticipantsSection = () => {
         </p>
       </div>
 
-      <div className="flex flex-col p-5 lg:p-10 gap-5 bg-first rounded-md">
-        <p className="font-bold text-xl text-second">Dalyviai</p>
+      <div className="flex flex-col p-5 lg:p-10 gap-5 text-sixth bg-first rounded-md">
+        <p className="font-bold text-xl">Dalyviai</p>
         {participants.map((p, index) => (
           <a
             key={index}
