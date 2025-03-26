@@ -20,7 +20,7 @@ const Footer = () => {
           </span>
         </a>
         <a
-          href="tel:+1234567890"
+          href="tel:+37060485041"
           className="text-[#2BD47A] gap-2 self-center flex relative group pb-8 lg:pb-0"
         >
           <Phone className="fill-[#2BD47A]" />
@@ -40,7 +40,7 @@ const Footer = () => {
           </span>
         </a>
         <a
-          href="tel:+1234567890"
+          href="tel:+37061149143"
           className="text-[#2BD47A] gap-2 flex relative group"
         >
           <Phone className="fill-[#2BD47A]" />
