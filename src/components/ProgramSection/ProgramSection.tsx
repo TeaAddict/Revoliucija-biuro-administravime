@@ -88,7 +88,7 @@ const ProgramSection = () => {
   return (
     <div className="flex flex-col justify-center w-full bg-second text-sixth py-10 lg:py-0">
       <div className="flex flex-col items-center gap-5">
-        <TechinBrand />
+        <TechinBrand className="text-sixth stroke-sixth" />
         <h4 className="text-head font-bold">
           Vilniaus technologijų ir inžinerijos mokymo centras (TECHIN)
         </h4>
@@ -102,9 +102,11 @@ const ProgramSection = () => {
           Balandžio 16 d., Aviacijos ir verslo administravimo mokymo skyrius,
           Lakūnų g. 3, Vilnius
         </p>
-        <ProgramCard cardRows={data1} />
-        <ProgramCard head={"I DALIS"} cardRows={data2} />
-        <ProgramCard head={"II DALIS"} cardRows={data3} />
+        <div className="max-w-[40rem] flex flex-col gap-1">
+          <ProgramCard cardRows={data1} />
+          <ProgramCard head={"I DALIS"} cardRows={data2} />
+          <ProgramCard head={"II DALIS"} cardRows={data3} />
+        </div>
       </div>
     </div>
   );
