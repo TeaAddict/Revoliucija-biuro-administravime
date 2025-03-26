@@ -42,3 +42,25 @@ body {
 
   --text-head: 1.5rem;
 }
+
+@layer utilities {
+  .bg-chevron {
+    background-image: repeating-linear-gradient(
+      135deg,
+      #34d399 0px,
+      #34d399 2px,
+      transparent 2px,
+      transparent 10px
+    );
+  }
+
+  .bg-chevron-reverse {
+    background-image: repeating-linear-gradient(
+      45deg,
+      #34d399 0px,
+      #34d399 2px,
+      transparent 2px,
+      transparent 10px
+    );
+  }
+}

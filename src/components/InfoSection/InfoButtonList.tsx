@@ -5,6 +5,11 @@ import ForumoPrograma from "./ForumoPrograma";
 import NaudingaInformacija from "./NaudingaInformacija";
 import ForumoDalyviai from "./ForumoDalyviai";
 import ForumoMedziaga from "./ForumoMedziaga";
+import { LuClipboardList } from "react-icons/lu";
+import { GoInfo } from "react-icons/go";
+import { IoPeopleOutline } from "react-icons/io5";
+import { PiBookOpenTextLight } from "react-icons/pi";
+import { PiBookOpenText } from "react-icons/pi";
 
 const InfoButtonList = () => {
   return (
@@ -30,7 +35,7 @@ const InfoButtonList = () => {
             )?.showModal()
           }
         >
-          <InfoButton img={Computer} name="Forumo programa" />
+          <InfoButton img={LuClipboardList} style="stroke-[0.09rem]" name="Forumo programa" />
         </button>
 
         <button
@@ -41,7 +46,7 @@ const InfoButtonList = () => {
             )?.showModal()
           }
         >
-          <InfoButton img={Computer} name="Naudinga informacija" />
+          <InfoButton img={GoInfo} name="Naudinga informacija" />
         </button>
 
         <button
@@ -52,7 +57,7 @@ const InfoButtonList = () => {
             )?.showModal()
           }
         >
-          <InfoButton img={Computer} name="Forumo dalyviai" />
+          <InfoButton img={IoPeopleOutline} name="Forumo dalyviai" />
         </button>
 
         <button
@@ -63,7 +68,7 @@ const InfoButtonList = () => {
             )?.showModal()
           }
         >
-          <InfoButton img={Computer} name="Forumo medžiaga" />
+          <InfoButton img={PiBookOpenText} name="Forumo medžiaga" />
         </button>
       </div>
     </div>
