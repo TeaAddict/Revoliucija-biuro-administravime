@@ -10,7 +10,7 @@ const Modal = ({ children, modalName, style }: ModalProps) => {
   return (
     <div>
       <dialog id={modalName} className="modal">
-        <div className={`modal-box w-auto max-w-full ${style}`}>
+        <div className={`modal-box w-auto max-w-[90vw] ${style}`}>
           <form method="dialog">
             <button className="btn btn-sm btn-circle btn-ghost absolute right-2 top-2">
               ✕
