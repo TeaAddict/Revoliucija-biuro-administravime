@@ -48,7 +48,7 @@ const discussionThemes = [
 
 const DiscussionSection = () => {
     return (
-        <section className="text-first px-8 py-10 flex flex-col items-center gap-4 bg-second">
+        <section className="text-first lg:px-8 py-10 flex flex-col items-center gap-4 bg-second">
         <div className="w-full flex justify-center">
           <img src={TechinBrand5} className="h-auto max-w-20" />
         </div>
@@ -61,12 +61,12 @@ const DiscussionSection = () => {
           "(r)Evoliucija biuro administravime: patirtys, nauji įgūdžiai ir
           iššūkiai"
         </p>
-          <h2 className="text-xl pt-7">Forumo diskusijų temų diagrama  </h2>
+          <h2 className="text-xl pt-7">Forumo diskusijų temų diagrama </h2>
     
           <img src={temos} alt="temos" className="xl:max-w-5xl"/>
     
           <div className="pt-7 text-xl">Diskusijų temos</div>
-          <div className="w-full max-w-5xl grid grid-cols-[30%_70%] border border-first text-left font-semibold">
+          <div className="w-full max-w-5xl grid grid-cols-2 lg:grid-cols-[30%_70%] border border-first text-left font-semibold">
             
             <div className="border border-first p-2">Aktualiausios temos</div>
             <div className="border border-first p-2">Tezės</div>
@@ -76,7 +76,7 @@ const DiscussionSection = () => {
           {discussionThemes.map((item, idx) => (
             <div
               key={idx}
-              className="w-full max-w-5xl grid grid-cols-[30%_70%] border-x border-b border-first text-left"
+              className="w-full max-w-5xl grid grid-cols-2 lg:grid-cols-[30%_70%] border-x border-b border-first text-left"
             >
               <div className="border border-first p-2 font-medium flex items-center">
                 {item.number}. „{item.title}“.
