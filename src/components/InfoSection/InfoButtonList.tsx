@@ -1,4 +1,3 @@
-import Computer from "../../assets/computer.svg?react";
 import InfoButton from "./InfoButton";
 import Modal from "../Modal";
 import ForumoPrograma from "./ForumoPrograma";
@@ -8,7 +7,6 @@ import ForumoMedziaga from "./ForumoMedziaga";
 import { LuClipboardList } from "react-icons/lu";
 import { GoInfo } from "react-icons/go";
 import { IoPeopleOutline } from "react-icons/io5";
-import { PiBookOpenTextLight } from "react-icons/pi";
 import { PiBookOpenText } from "react-icons/pi";
 
 const InfoButtonList = () => {
@@ -35,7 +33,11 @@ const InfoButtonList = () => {
             )?.showModal()
           }
         >
-          <InfoButton img={LuClipboardList} style="stroke-[0.09rem]" name="Forumo programa" />
+          <InfoButton
+            img={LuClipboardList}
+            style="stroke-[0.09rem]"
+            name="Forumo programa"
+          />
         </button>
 
         <button
@@ -68,7 +70,10 @@ const InfoButtonList = () => {
             )?.showModal()
           }
         >
-          <InfoButton img={PiBookOpenText} name="Forumo medžiaga" />
+          <InfoButton
+            img={PiBookOpenText}
+            name="Forumo diskusijos temos ir tezės"
+          />
         </button>
       </div>
     </div>
