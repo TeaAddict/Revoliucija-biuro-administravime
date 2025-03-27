@@ -72,7 +72,8 @@ const InfoButtonList = () => {
         >
           <InfoButton
             img={PiBookOpenText}
-            name="Forumo diskusijos temos ir tezės"
+            // name="Forumo diskusijos temos ir tezės"
+            name="Forumo diskusijos temos"
           />
         </button>
       </div>

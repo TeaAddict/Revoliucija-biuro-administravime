@@ -6,11 +6,16 @@ import TechinBrand5 from "../../assets/Techin-brand-X.png";
 
 const NaudingaInformacija = () => {
   return (
-    <div className=" overflow-scroll px-2 flex flex-col text-fourth">
+    <div className="px-2 flex flex-col text-fourth">
       <section className="flex flex-col items-center justify-center py-8 gap-5">
         <img src={TechinBrand5} className="h-auto max-w-20" />
 
-        <h1 className="font-bold text-3xl">INFORMACIJA FORUMO DALYVIAMS </h1>
+        {/* <h1 className="font-bold text-5xl tracking-wider">
+          INFORMACIJA FORUMO DALYVIAMS
+        </h1> */}
+        <h1 className="font-bold text-5xl tracking-wider pb-2 pt-7">
+          Informacija forumo dalyviams
+        </h1>
       </section>
       <section className="py-8 flex flex-col gap-2">
         <h3 className="font-bold text-xl">Atvykimas </h3>
@@ -47,12 +52,12 @@ const NaudingaInformacija = () => {
           <h1 className=" font-bold self-center">Žalioji zona</h1>
           <section className=" px-2 pb-2">
             <p>
-              Stovėļimas mokamas nuo pirmadienio iki Seštodlenio arba nuo
-              pirmadienio ik penktadlenio, prikiausomal nuo zonos lokacijos.
+              Stovėjimas mokamas nuo pirmadienio iki šeštadienio arba nuo
+              pirmadienio iki penktadienio, priklausomai nuo zonos lokacijos.
             </p>
             <p>8:00- 18:00: 1 val .- 0.30 Eur</p>
             <p>18:00 - 8:00: nemokamal</p>
-            <p>Tarifas skalčluojamas 20 min. tislumu.</p>
+            <p>Tarifas skaičiuojamas 20 min. tikslumu.</p>
           </section>
         </section>
         <p className=" pt-4">

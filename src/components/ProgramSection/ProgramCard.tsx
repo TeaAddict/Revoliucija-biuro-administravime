@@ -19,7 +19,9 @@ const ProgramCard: React.FC<ProgramCard> = ({ head, cardRows }) => {
               <td className="py-1 lg:p-2 w-[7rem] lg:text-center text-second font-semibold">
                 {item.time}
               </td>
-              <td className="py-1 lg:p-2 text-sixth">{item.description}</td>
+              <td className="py-1 lg:p-2 text-sixth whitespace-pre-line">
+                {item.description}
+              </td>
             </tr>
           ))}
         </tbody>

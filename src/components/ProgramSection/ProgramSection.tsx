@@ -32,17 +32,17 @@ const data2 = [
   {
     time: "10.45-11.05",
     description:
-      "„Darbas su klientais. Tinklaveika - abipusis santykių kūrimas“ UAB „Litcargus“. Personalo direktorė A. Jurėnaitė",
+      "„Darbas su klientais. Tinklaveika - abipusis santykių kūrimas“\n UAB „Litcargus“. Personalo direktorė A.\u00A0Jurėnaitė",
   },
   {
     time: "11.05-11.25",
     description:
-      "„Dokumentų valdymas: iššūkiai ir ateities perspektyvos“ Lietuvos valstybės naujasis archyvas. Direktorė D. Kontrimavičienė",
+      "„Dokumentų valdymas: iššūkiai ir ateities perspektyvos“\n Lietuvos valstybės naujasis archyvas. Direktorė D.\u00A0Kontrimavičienė",
   },
   {
     time: "11.25-11.45",
     description:
-      "„Kibernetinio saugumo sąmoningumo ugdymas ir socialinės inžinerijos testavimai“ UAB „Vilniaus vandenys“. Kibernetinio saugumo vadovas J. Lisauskas",
+      "„Kibernetinio saugumo sąmoningumo ugdymas ir socialinės inžinerijos testavimai“\n UAB „Vilniaus vandenys“. Kibernetinio saugumo vadovas J.\u00A0Lisauskas",
   },
   {
     time: "11.45-11.55",
@@ -51,17 +51,17 @@ const data2 = [
   {
     time: "11.55-12.15",
     description:
-      "„Asmens duomenų apsauga įstaigoje“ Žemės ūkio duomenų centras. Asmens duomenų apsaugos pareigūnė I. Mitkevičienė",
+      "„Asmens duomenų apsauga įstaigoje“\n Žemės ūkio duomenų centras. Asmens duomenų apsaugos pareigūnė I.\u00A0Mitkevičienė",
   },
   {
     time: "12.15-12.35",
     description:
-      "„Dirbtinis intelektas biure: partneris ar konkurentas“ Mokymo(-si) patirčių konsultantas, lektorius Ą. Balčius",
+      "„Dirbtinis intelektas biure: partneris ar konkurentas“\n Mokymo(-si) patirčių konsultantas, lektorius Ą.\u00A0Balčius",
   },
   {
     time: "12.35-12.55",
     description:
-      "„Darbo rinkos tendencijos“ Darbo rinkos ekspertė R. Karavaitienė",
+      "„Darbo rinkos tendencijos“\n Darbo rinkos ekspertė R.\u00A0Karavaitienė",
   },
   {
     time: "12.55-14.00",
@@ -92,8 +92,9 @@ const ProgramSection = () => {
         <h4 className="text-lg font-bold text-center">
           Vilniaus technologijų ir inžinerijos mokymo centras (TECHIN)
         </h4>
-        <h3 className="text-xl font-bold">FORUMAS</h3>
-        <h2 className="text-head font-bold text-center">
+        {/* <h3 className="text-xl font-bold">FORUMAS</h3> */}
+        <h3 className="text-5xl font-bold tracking-wider pt-7">Forumas</h3>
+        <h2 className="text-2xl font-[600] text-first tracking-wider text-center pb-10">
           „(r)Evoliucija biuro administravime: patirtys, nauji įgūdžiai ir
           iššūkiai“
         </h2>

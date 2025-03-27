@@ -40,7 +40,7 @@ const ParticipantsSection = () => {
           Forumas
         </h2>
 
-        <p className="text-2xl font-[600] text-first tracking-wider pb-10">
+        <p className="text-2xl font-[600] text-first tracking-wider pb-10 text-center">
           "(r)Evoliucija biuro administravime: patirtys, nauji įgūdžiai ir
           iššūkiai"
         </p>
@@ -49,15 +49,16 @@ const ParticipantsSection = () => {
       <div className="flex flex-col p-5 lg:p-10 gap-5 text-sixth bg-first rounded-md">
         <p className="font-bold text-xl">Dalyviai</p>
         {participants.map((p, index) => (
-          <a
-            key={index}
-            href={p.url}
-            className="underline text-second font-bold pl-5 lg:pl-10"
-            target="_blank"
-            rel="noopener noreferrer"
-          >
-            {p.name}
-          </a>
+          <div key={index}>
+            <a
+              href={p.url}
+              className="underline text-second font-bold lg:ml-10"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
+              {p.name}
+            </a>
+          </div>
         ))}
       </div>
     </section>
