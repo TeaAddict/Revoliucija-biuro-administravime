@@ -29,6 +29,17 @@ const InfoButtonList = () => {
           className="cursor-pointer"
           onClick={() =>
             (
+              document.getElementById("modal3") as HTMLDialogElement | null
+            )?.showModal()
+          }
+        >
+          <InfoButton img={IoPeopleOutline} name="Forumo dalyviai" />
+        </button>
+
+        <button
+          className="cursor-pointer"
+          onClick={() =>
+            (
               document.getElementById("modal1") as HTMLDialogElement | null
             )?.showModal()
           }
@@ -44,28 +55,6 @@ const InfoButtonList = () => {
           className="cursor-pointer"
           onClick={() =>
             (
-              document.getElementById("modal2") as HTMLDialogElement | null
-            )?.showModal()
-          }
-        >
-          <InfoButton img={GoInfo} name="Naudinga informacija" />
-        </button>
-
-        <button
-          className="cursor-pointer"
-          onClick={() =>
-            (
-              document.getElementById("modal3") as HTMLDialogElement | null
-            )?.showModal()
-          }
-        >
-          <InfoButton img={IoPeopleOutline} name="Forumo dalyviai" />
-        </button>
-
-        <button
-          className="cursor-pointer"
-          onClick={() =>
-            (
               document.getElementById("modal4") as HTMLDialogElement | null
             )?.showModal()
           }
@@ -75,6 +64,17 @@ const InfoButtonList = () => {
             // name="Forumo diskusijos temos ir tezės"
             name="Forumo diskusijos temos"
           />
+        </button>
+
+        <button
+          className="cursor-pointer"
+          onClick={() =>
+            (
+              document.getElementById("modal2") as HTMLDialogElement | null
+            )?.showModal()
+          }
+        >
+          <InfoButton img={GoInfo} name="Naudinga informacija" />
         </button>
       </div>
     </div>

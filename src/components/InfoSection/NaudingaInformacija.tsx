@@ -56,7 +56,7 @@ const NaudingaInformacija = () => {
               pirmadienio iki penktadienio, priklausomai nuo zonos lokacijos.
             </p>
             <p>8:00- 18:00: 1 val .- 0.30 Eur</p>
-            <p>18:00 - 8:00: nemokamal</p>
+            <p>18:00 - 8:00: nemokamai</p>
             <p>Tarifas skaičiuojamas 20 min. tikslumu.</p>
           </section>
         </section>

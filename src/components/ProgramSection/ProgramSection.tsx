@@ -90,7 +90,7 @@ const ProgramSection = () => {
       <div className="flex flex-col items-center gap-5">
         <img src={TechinBrand5} className="h-auto max-w-20" />
         <h4 className="text-lg font-bold text-center">
-          Vilniaus technologijų ir inžinerijos mokymo centras (TECHIN)
+          Vilniaus technologijų ir inžinerijos mokymo centras
         </h4>
         {/* <h3 className="text-xl font-bold">FORUMAS</h3> */}
         <h3 className="text-5xl font-bold tracking-wider pt-7">Forumas</h3>
