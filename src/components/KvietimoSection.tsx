@@ -13,12 +13,12 @@ const KvietimoSection = () => {
         <div className="flex flex-col gap-6">
           <div>
             <p className="font-bold pt-5 text-sixth">
-              Maloniai kviečiame atvykti ir pasidalinti mintimis ir įžvalgomis.{" "}
+              Maloniai kviečiame atvykti, pasidalinti mintimis ir įžvalgomis.
             </p>
 
             <p className="flex justify-center pt-5">
-              TECHIN Aviacijos ir verslo administravimo skyriuje (Lakūnų g. 3,
-              Vilnius).
+              TECHIN Aviacijos ir verslo administravimo mokymo skyriuje (Lakūnų
+              g. 3, Vilnius).
             </p>
           </div>
           <p className="flex justify-end pb-4 sm:pb-0">

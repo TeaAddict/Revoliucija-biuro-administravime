@@ -12,17 +12,17 @@ import { PiBookOpenText } from "react-icons/pi";
 const InfoButtonList = () => {
   return (
     <div className="w-full">
-      <Modal modalName="modal1" style="bg-second">
-        <ForumoPrograma />
-      </Modal>
-      <Modal modalName="modal2" style="bg-second">
-        <NaudingaInformacija />
-      </Modal>
       <Modal modalName="modal3" style="bg-second">
         <ForumoDalyviai />
       </Modal>
+      <Modal modalName="modal1" style="bg-second">
+        <ForumoPrograma />
+      </Modal>
       <Modal modalName="modal4" style="bg-second">
         <ForumoMedziaga />
+      </Modal>
+      <Modal modalName="modal2" style="bg-second">
+        <NaudingaInformacija />
       </Modal>
       <div className="grid lg:grid-cols-4 w-full gap-5 py-5 px-5">
         <button
